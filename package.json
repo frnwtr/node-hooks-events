@@ -1,0 +1,29 @@
+{
+  "name": "hooks",
+  "version": "0.0.1",
+  "description": "Hooks events http://hooks.events/ node client",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frnwtr/node-hooks"
+  },
+  "keywords": [
+    "hooks.events",
+    "hooks",
+    "hooks-events"
+  ],
+  "author": "Walter Franchetti",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frnwtr/node-hooks/issues"
+  },
+  "homepage": "https://github.com/frnwtr/node-hooks",
+  "dependencies": {
+    "commander": "^2.5.0",
+    "request": "^2.47.0"
+  },
+  "bin": {
+    "yo": "bin/hooks.js"
+  }
+}
