@@ -17,27 +17,30 @@ npm install node-hooks-events -save
 USAGE
 =====
 
+```
 var Hooks = require('node-hooks-events');
 
 var hooks = new Hooks(appKey); //fill with given appkey from the app
 
-or if is an array of Api Keys
-
+// or if is an array of Api Keys
 var hooks = new Hooks([
   appKey_1,
   appKey_2,
   ...
 ]);
+```
 
+send a message
+```
 hooks.send('title', 'message', callback(err,response));
-
+```
 that's it
 
 Responses
 =========
 
 If there is an error:
-
+```
   err: <message>,
   {
     hooksTitle: '<title>',
@@ -46,10 +49,10 @@ If there is an error:
     hooksApi: '<ref to appKey>',
     sent: false
   }
-
+```
 
 If request is ok:
-
+```
   err:null,
   {
     hooksTitle: '<title>',
@@ -58,7 +61,7 @@ If request is ok:
     hooksApi: '<ref to appKey>',
     sent: true
   }
-
+```
 
 BIN command:
 ============
