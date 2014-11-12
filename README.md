@@ -65,5 +65,6 @@ If request is ok:
 
 BIN command:
 ============
-
+```
 hooks <apiKey>,<apiKey>,<apiKey>,... <title> <message>
+```
