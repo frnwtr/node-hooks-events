@@ -20,8 +20,8 @@
   },
   "homepage": "https://github.com/frnwtr/node-hooks-events",
   "dependencies": {
-    "commander": "^2.5.0",
-    "request": "^2.47.0"
+    "commander": "~2.5.0",
+    "request": "~2.47.0"
   },
   "bin": {
     "hooks": "bin/hooks.js"
