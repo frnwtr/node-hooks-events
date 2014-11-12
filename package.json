@@ -24,6 +24,6 @@
     "request": "^2.47.0"
   },
   "bin": {
-    "yo": "bin/hooks.js"
+    "hooks": "bin/hooks.js"
   }
 }
