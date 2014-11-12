@@ -6,7 +6,7 @@
   "scripts": {},
   "repository": {
     "type": "git",
-    "url": "git://github.com/frnwtr/node-hooks"
+    "url": "git://github.com/frnwtr/node-hooks-events"
   },
   "keywords": [
     "hooks.events",
@@ -16,9 +16,9 @@
   "author": "Walter Franchetti",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/frnwtr/node-hooks/issues"
+    "url": "https://github.com/frnwtr/node-hooks-events/issues"
   },
-  "homepage": "https://github.com/frnwtr/node-hooks",
+  "homepage": "https://github.com/frnwtr/node-hooks-events",
   "dependencies": {
     "commander": "^2.5.0",
     "request": "^2.47.0"
