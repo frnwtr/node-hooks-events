@@ -1,5 +1,6 @@
 node-hooks
 ==========
+[![npm version](https://badge.fury.io/js/node-hooks-events.png)](http://badge.fury.io/js/node-hooks-events)
 
 node wrapper for http://hooks.events
 
