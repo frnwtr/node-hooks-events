@@ -1,6 +1,6 @@
 {
   "name": "node-hooks-events",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Hooks events http://hooks.events/ node client",
   "main": "index.js",
   "scripts": {},
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/frnwtr/node-hooks-events",
   "dependencies": {
     "commander": "~2.5.0",
+    "node-uuid": "^1.4.1",
     "request": "~2.47.0"
   },
   "bin": {
