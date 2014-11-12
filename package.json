@@ -1,6 +1,6 @@
 {
   "name": "node-hooks-events",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Hooks events http://hooks.events/ node client",
   "main": "index.js",
   "scripts": {},
